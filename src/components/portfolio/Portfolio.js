@@ -4,8 +4,8 @@ import gni from '../../assets/gni.png'
 // import Avatar from '../../assets/avatar.png'
 import swiftend from '../../assets/swiftend.png'
 import those from '../../assets/those.png'
-import YOUTUBE from '../../assets/youtube.png'
-import TOURS from '../../assets/tours.png'
+import airdrop from '../../assets/airdrop.png'
+import hernalytics from '../../assets/hernalytics.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -28,7 +28,6 @@ const Portfolio = () => {
             >
               Website
             </a>
-            
           </div>
         </article>
 
@@ -46,7 +45,6 @@ const Portfolio = () => {
             >
               Website
             </a>
-            
           </div>
         </article>
 
@@ -64,7 +62,6 @@ const Portfolio = () => {
             >
               Website
             </a>
-           
           </div>
         </article>
 
@@ -82,56 +79,39 @@ const Portfolio = () => {
             >
               Website
             </a>
-            
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={YOUTUBE} alt="post" />
+            <img src={airdrop} alt="post" />
           </div>
-          <h3>This is my portfolio</h3>
+          <h3>Ultainfinityairdrop</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://youutuube.netlify.app/"
+              href="https://ultainfinityairdrop.com/"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
-              Netlify
-            </a>
-            <a
-              href="#https://youutuube.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              live Demo
+              Website
             </a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={TOURS} alt="post" />
+            <img src={hernalytics} alt="post" />
           </div>
-          <h3>This is my portfolio</h3>
+          <h3>Hernalytics</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://my-tourguide.netlify.app/"
+              href="https://creative-kangaroo-2d2104.netlify.app/"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
-              Netlify
-            </a>
-            <a
-              href="https://my-tourguide.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              live Demo
+              Website
             </a>
           </div>
         </article>
