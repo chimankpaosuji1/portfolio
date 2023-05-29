@@ -14,13 +14,17 @@ const HeaderScroll = () => {
         <BsLinkedin />
       </a>
       <a
-        href=""
+        href="https://app.netlify.com/teams/chimankpaosuji1/overview"
         target="_blank"
         rel="noreferrer"
       >
         <SiNetlify />
       </a>
-      <a href="https://github.com/chimankpaosuji1" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/chimankpaosuji1"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsGithub />
       </a>
     </div>

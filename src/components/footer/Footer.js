@@ -1,15 +1,14 @@
 import React from 'react'
 import './footer.css'
-import {BsTwitter} from 'react-icons/bs'
+import { BsLinkedin } from "react-icons/bs";
 import {BsFacebook} from  'react-icons/bs'
 
 const Footer = () => {
   return (
     <footer>
-     
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -28,10 +27,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="#">
-          <BsTwitter />
+        <a href="https://www.linkedin.com/in/chimankpa-osuji-296634101/">
+          <BsLinkedin />
         </a>
-        <a href="#">
+        <a href="https://m.me/chimankpaosuji">
           <BsFacebook />
         </a>
       </div>
