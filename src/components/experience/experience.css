@@ -70,12 +70,14 @@
        
       .experience__container{
         grid-template-columns: 1fr;
-       gap: 1.5rem;
+       gap: 2rem;
+       margin: auto;
       }
 
        .experience__container > div{
            width: 100%;
-           padding: 2rem 1rem;
+           padding: 2rem 2rem;
+           margin: auto;
        }
      
 
